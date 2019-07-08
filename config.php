@@ -4,9 +4,9 @@ use astute\CodeIgniterDB as CI;
 $db_data = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => '2019_jegadesh_post',
+	'username' => 'database_username',
+	'password' => 'database_user_password',
+	'database' => 'database_name',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
